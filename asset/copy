@@ -1,0 +1,62 @@
+<div class="about-section">
+        <h1>About Us Page</h1>
+        <p class="p1">Our motive is to make the developmemt more convenient for programmers<BR>
+          We offer a wide range of features which is fusion of features of tools like NoTion & GiThuB
+        </p>
+      </div>
+      
+      <h2 class="h22" style="text-align:center">OUR TEAM</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Himanshu Sheetlani</h2>
+              <p class="title">Database Managment</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>jane@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Krishna Gupta</h2>
+              <p class="title">Styling & Content Writer</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>mike@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+              <div class="container">
+                <h2>Harshita Paliwal</h2>
+                <p class="title">Javascript & Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>john@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+              <div class="container">
+                <h2>Ashwin Carpenter</h2>
+                <p class="title">Styling & photography</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>mike@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+</body>
+</html>
