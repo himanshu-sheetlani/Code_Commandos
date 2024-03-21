@@ -7,7 +7,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -34,57 +36,55 @@ html {
   padding: 0 16px;
 }
 
-.container1::after, .row::after {
+.container1::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.container{
+.container {
   background-color: #fbfff5;
-      padding: 10px;
-  }
-
-
-
-  
-  li{
-      color: #C46406;
-      text-align: center;
-      display: inline;
-      margin-left:350px;
-      word-spacing:0.7px;
-      font-size: 18px;
-      text-decoration: none;
-  }
-
-  li:hover{
-    color: brown;
-    background-color: aqua;
-    border-radius: 5px;
-    border-width: 5px;
-    font-weight: 400;
+  padding: 10px;
 }
-  
+
+li {
+  color: #c46406;
+  text-align: center;
+  display: inline;
+  margin-left: 350px;
+  word-spacing: 0.7px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+li:hover {
+  color: brown;
+  background-color: aqua;
+  border-radius: 5px;
+  border-width: 5px;
+  font-weight: 400;
+}
+
 .title {
   color: grey;
 }
 
-h1{
+h1 {
   font-family: "Anta", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    color: #65a3cb;
-font-size:38px;
+  font-weight: bold;
+  font-style: normal;
+  color: #65a3cb;
+  font-size: 38px;
 }
-.p1{
+.p1 {
   font-family: "Tenali Ramakrishna", sans-serif;
   font-weight: 450;
   font-style: normal;
   color: #c46406;
-  font-size: 20PX;
+  font-size: 20px;
 }
-p{
+p {
   font-family: "Tenali Ramakrishna", sans-serif;
   font-weight: 450;
   font-style: normal;
@@ -114,8 +114,7 @@ p{
   }
 }
 
-.h22{
-   
+.h22 {
   font-family: "Anta", sans-serif;
   font-weight: bold;
   font-style: normal;
