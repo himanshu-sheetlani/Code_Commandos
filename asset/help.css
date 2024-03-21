@@ -1,127 +1,127 @@
-*{
-  margin:0px ;
+* {
+  margin: 0px;
   padding: 0px;
- }
- .logo{
-     font-family: "Barlow Condensed", sans-serif;
-     font-weight: bold;
-     font-style: normal;
-     line-height: 4px;
-     font-size: 25px;
-     margin: 0;
-     padding: 0;
- }
- a.navbar-brand{
-  width: 100px;
- }
- .navbar-nav{
-  width: 100px;
- }
- 
- .color{
-     color: #65a3cb;
- }
- 
- .logo{
-     width: fit-content;
-     font-size: 32px;
-     margin-left: -42px;
-     padding-right: 185px;
- }
- 
- .navbar-nav{
-     /* padding: 30px; */
-     font-family: 'Anta';
-     font-size: 24px;
-     gap: 6px;
-     padding-left: 149px;
- }
- 
- .nav-item{
-     transition: 0.5s ease-in-out;
- }
-
-body{
-    background: #fbfff5;
-    padding-top: 20px;
-    font-family: monospace;
-  }
-  .header{
-    border-radius: 20px 20px 0px 0px;
-    padding: 5px 0px;
-    background: #65a3cb;
-    color: #fff;
-    width: 100%;
-    display: flex;
-
-    align-content: center;
-    justify-content: center;
-  }
-  .faq-item{
-    margin-bottom: 40px;
-    margin-top: 40px;
-  }
-  .faq-body{
-    display: none;
-    margin-top: 30px;
-  }
-  .faq-wrapper{
-    width: 65%;
-    margin: 0 auto;
-  }
-  .faq-inner{
-    padding: 30px;
-    background: aliceblue;
-  }
-  .faq-plus{
-    float: right;
-    font-size: 1.0em;
-    line-height: 0.8em;
-    cursor: pointer;
-  }
-  .container{
-    background-color: #fbfff5;
-        padding: 0px;
-    }
-    ul{
-      margin: -25px;
-    }
-    
-    li{
-        margin-top: 10px;
-        color: #C46406;
-        text-align: 30px;
-        margin-left:350px;
-        font-size: 20px;
-        display: inline;
-    
-        justify-content: left;
-    
-        text-decoration: none;
-    }
-    .li1{
-        width: 20px;
-        float: left;
-        font-size: 20px;
-    }
-    
-    li .li1{
-        align-items: center;
-    }
-
-  hr{
-    background-color: #9b9b9b;
-  }
-  h3{
-    font-family: "Tenali Ramakrishna", sans-serif;
+}
+.logo {
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: bold;
-  
   font-style: normal;
-    font-size: 35px;
-  }
-  h1{
-    font-family: "Anta", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-font-size: 60px;
-  }
+  line-height: 4px;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+a.navbar-brand {
+  width: 100px;
+}
+.navbar-nav {
+  width: 100px;
+}
+
+.color {
+  color: #65a3cb;
+}
+
+.logo {
+  width: fit-content;
+  font-size: 32px;
+  margin-left: -42px;
+  padding-right: 185px;
+}
+
+.navbar-nav {
+  /* padding: 30px; */
+  font-family: "Anta";
+  font-size: 24px;
+  gap: 6px;
+  padding-left: 149px;
+}
+
+.nav-item {
+  transition: 0.5s ease-in-out;
+}
+
+body {
+  background: #fbfff5;
+  padding-top: 20px;
+  font-family: monospace;
+}
+.header {
+  border-radius: 20px 20px 0px 0px;
+  padding: 5px 0px;
+  background: #65a3cb;
+  color: #fff;
+  width: 100%;
+  display: flex;
+
+  align-content: center;
+  justify-content: center;
+}
+.faq-item {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.faq-body {
+  display: none;
+  margin-top: 30px;
+}
+.faq-wrapper {
+  width: 65%;
+  margin: 0 auto;
+}
+.faq-inner {
+  padding: 30px;
+  background: aliceblue;
+}
+.faq-plus {
+  float: right;
+  font-size: 1em;
+  line-height: 0.8em;
+  cursor: pointer;
+}
+.container {
+  background-color: #fbfff5;
+  padding: 0px;
+}
+ul {
+  margin: -25px;
+}
+
+li {
+  margin-top: 10px;
+  color: #c46406;
+  text-align: 30px;
+  margin-left: 350px;
+  font-size: 20px;
+  display: inline;
+
+  justify-content: left;
+
+  text-decoration: none;
+}
+.li1 {
+  width: 20px;
+  float: left;
+  font-size: 20px;
+}
+
+li .li1 {
+  align-items: center;
+}
+
+hr {
+  background-color: #9b9b9b;
+}
+h3 {
+  font-family: "Tenali Ramakrishna", sans-serif;
+  font-weight: bold;
+
+  font-style: normal;
+  font-size: 35px;
+}
+h1 {
+  font-family: "Anta", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 60px;
+}
