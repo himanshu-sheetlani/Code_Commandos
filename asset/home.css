@@ -1,214 +1,144 @@
-*{
- margin:0px ;
- padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.logo{
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 4px;
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-}
-
-.color{
-    color: #65a3cb;
+.logo {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 4px;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
 }
 
-.logo{
-    width: fit-content;
-    font-size: 32px;
-    margin-left: -42px;
-    padding-right: 185px;
+.color {
+  color: #65a3cb;
 }
 
-.navbar-nav{
-    /* padding: 30px; */
-    font-family: 'Anta';
-    font-size: 24px;
-    gap: 12px;
-    padding-left: 149px;
+.logo {
+  width: fit-content;
+  font-size: 32px;
+  margin-left: -42px;
+  padding-right: 185px;
 }
 
-.nav-item{
-    transition: 0.5s ease-in-out;
-}
-/* .nav-item:hover{ */
-   /* transform: translateY(-10px); */
-   /* transform: rotate(0.5); */
-/* } */
-/* .hii h1  {
-    margin-left: 14px;
-    margin-top: 32px;
-    font-family:'Anta' ;
-    letter-spacing: 0.5px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 2s steps(13),cusrsor.4s step-end infinite alternate;
-    }
-    @keyframes cursor{
-        50%{ border-color: transparent;
-
-        }
-    }
-    @keframe typing {
-        from{
-            width: 0;
-        }
-        to{
-            width: 100%; */
-        /* }
-    }
-    .hii h1  {
-        margin-left: 14px;
-        margin-top: 32px;
-        font-family:'Anta' ;
-        letter-spacing: 0.5px;
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typing 2s steps(13),cusrsor.4s step-end infinite alternate;
-        }
-        @keyframes cursor{
-            50%{ border-color: transparent;
-    
-            }
-        }
-        @keframe typing {
-            from{
-                width: 0;
-            }
-            to{
-                width: 100%;
-            }} */
-.hii h2{
-    margin-left: 18px;
-}
-.row{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:88%;
-    width:38vw;
-    transition: 0.5sec;
-    font-family: "Anta", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
-}
-.row p{
-    width: 50vw;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.col{
-    flex-basis: 20%;
-    /* margin-left: 100px; */
-    font-size: larger;
-    display: flex;
-    width: 50vw;
-    position: absolute;
-    right: 0;
-    left: auto;
-    top: 35vh;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-
-
+.navbar-nav {
+  font-family: "Anta";
+  font-size: 24px;
+  gap: 12px;
+  padding-left: 149px;
 }
 
-   
-#hello{
-    line-height: px64;
-    margin-top: 34px;
-    margin-left: 15px;
-    font-size: 55px;
-}
-#toggledark{
-    font-size: px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-
+.nav-item {
+  transition: 0.5s ease-in-out;
 }
 
-#what{
-    margin-top: 31px;
-    margin-left: 15px;
+.hii h2 {
+  margin-left: 18px;
 }
-p{
-    margin-top: -41px;
-    margin-bottom: 3rem;
-    margin-left: 61px;}
-
-
-#create{
-    margin-left: 1px;
-    width: 427px;
-    color: #65a3cb;
-margin-left: 2px;
-    font-size:25px;
-    padding: 14px 30px;
-    background-color:#c46406;
-    border-radius: 58px;
-    
-    margin-top: 61px;
-    text-decoration: none;
-    /* color:blueviolet;
-    font-size: 12px;
-    padding: 12px 0;
-    background-color: aqua;
-    border: 0;
-    border-radius: 20px;
-    margin-top:50px;
-    text-decoration: none; */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88%;
+  width: 38vw;
+  transition: 0.5sec;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-.card{
-    width: 200px;
-    height: 230px;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 10px;
-    /* padding: 15px 25px; */
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    transition: 0.5s ease-in-out;
-    /* padding:0 54px */
-     padding: 40px 8px;
-    box-sizing: border-box;
-    cursor: pointer;
-    /* margin: 12px 15px; */
-    margin-top: 24px;
-    margin-left: 30px;
-    border: 2px solid #65a3cb  ;
-    box-shadow: #36566b;
+.row p {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col {
+  flex-basis: 20%;
+  font-size: larger;
+  display: flex;
+  width: 50vw;
+  position: absolute;
+  right: 0;
+  left: auto;
+  top: 35vh;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+#hello {
+  line-height: px64;
+  margin-top: 34px;
+  margin-left: 15px;
+  font-size: 55px;
+}
+#toggledark {
+  font-size: px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-.card:hover{
-    transform: translateY(-10px);
+#what {
+  margin-top: 31px;
+  margin-left: 15px;
 }
-.row h1{
-    padding-top: 64px;
-    cursor: pointer;
+p {
+  margin-top: -41px;
+  margin-bottom: 3rem;
+  margin-left: 61px;
 }
-.row p{
-    margin-top: 21px;
-    margin-right: 13px;
-    margin-left: -6px;
-    cursor: pointer;
-}
-.row h1:hover{
-    color: #65a3cb;
-}
-.row p:hover{
-color: #c46406;
 
+#create {
+  margin-left: 1px;
+  width: 427px;
+  color: #65a3cb;
+  margin-left: 2px;
+  font-size: 25px;
+  padding: 14px 30px;
+  background-color: #c46406;
+  border-radius: 58px;
+  margin-top: 61px;
+  text-decoration: none;
+}
+.card {
+  width: 200px;
+  height: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  transition: 0.5s ease-in-out;
+  padding: 40px 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-left: 30px;
+  border: 2px solid #65a3cb;
+  box-shadow: #36566b;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+.row h1 {
+  padding-top: 64px;
+  cursor: pointer;
+}
+.row p {
+  margin-top: 21px;
+  margin-right: 13px;
+  margin-left: -6px;
+  cursor: pointer;
+}
+.row h1:hover {
+  color: #65a3cb;
+}
+.row p:hover {
+  color: #c46406;
 }
